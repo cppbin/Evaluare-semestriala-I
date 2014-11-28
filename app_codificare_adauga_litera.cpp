@@ -16,7 +16,7 @@ int main()
     {
         strcpy(s1, p+1);
         s[p-s+1] = c;
-        strcpy(s+(p-s)+2, s1);
+        strcpy(p+2, s1);
         p = p + 2;
         p = strchr(p, c);
     }
